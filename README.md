@@ -34,4 +34,4 @@
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/Sentinal-Hive-Tracker.git
+git clone https://github.com/PolrFlare/Sentinal.git
