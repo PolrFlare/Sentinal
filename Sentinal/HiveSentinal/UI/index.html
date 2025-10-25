@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinal</title>
+    <link rel="stylesheet" href="hud.css">
+</head>
+<body>
+    <!-- Splash screen -->
+    <div id="splash">
+        <div id="splash-content">
+            <h1>Sentinal</h1>
+            <div id="subtitle">
+                <p>for</p>
+                <img src="Assets/hivelogo.png" alt="Hive Logo" id="hive-logo">
+            </div>
+        </div>
+        <span id="splash-version">v0.1</span>
+    </div>
+
+    <!-- Main screen -->
+    <div id="main-screen" style="display:none;">
+        <header>
+            <h2 class="mainscreen_title" id="title">Sentinal v0.1</h2>
+            <button id="scan-btn">Scan</button>
+        </header>
+
+        <!-- Player list -->
+        <div id="player-list-container">
+            <table id="player-list">
+                <thead>
+                    <tr>
+                        <th>Lvl</th>
+                        <th>Name</th>
+                        <th>KDR</th>
+                        <th>Win Rate</th>
+                        <th>Kills</th>
+                        <th>Wins</th>
+                        <th>Games Played</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Player rows will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <span id="gamertag">#gamertag</span>
+            <span id="version">Minecraft Version: #version</span>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
