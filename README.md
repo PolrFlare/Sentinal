@@ -6,7 +6,7 @@
 
 ## Features
 
-- Detects all players in your **Minecraft Bedrock Edition (MCPE) 1.21.x for Windows)** game lobby.
+- Detects all players in your **Minecraft Bedrock Edition (MCPE) 1.21.94-1.21.113 for Windows)** game lobby.
 - Fetches stats directly from the Hive API (`playhive.com`) for:
   - SkyWars XP and level
   - Kills, deaths, KDR
@@ -55,7 +55,7 @@ git clone https://github.com/PolrFlare/Sentinal.git
 
 ### Usage
 
-1. Launch **Minecraft Bedrock Edition 1.21.x (Windows Edition)** and join a **SkyWars lobby**.  
+1. Launch **Minecraft Bedrock Edition 1.21.94-1.21.113 (Windows Edition)** and join a **SkyWars lobby**.  
 2. Open **Sentinal**.  
 3. Wait for the splash screen to disappear — the main UI will appear.  
 4. Press **Scan** to fetch the player stats.  
