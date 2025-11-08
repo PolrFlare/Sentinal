@@ -1,4 +1,4 @@
-# Sentinal [Stat Tracker for Hive]
+# Sentinal [Stat Tracker for Hive AND MCCI]
 
 **Sentinal** is a Windows desktop tool (WPF + WebView2) that tracks Hive Bedrock players in your SkyWars lobby and fetches their public stats in real time. It helps you quickly see player performance, KDR, win rate, level, and other statistics.
 
