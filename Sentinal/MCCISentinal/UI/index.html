@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentinal</title>
+    <link rel="stylesheet" href="hud.css">
+</head>
+<body>
+    <!-- Splash screen -->
+    <div id="splash">
+        <div id="splash-content">
+            <h1>Sentinal</h1>
+            <div id="subtitle">
+                <p>for</p>
+                <img src="Assets/mccislandlogo.png" alt="MCCI Logo" id="mcci-logo">
+            </div>
+        </div>
+        <span id="splash-version">v0.1</span>
+    </div>
+
+    <!-- Main screen -->
+    <div id="main-screen" style="display:none;">
+        <header>
+            <h2 class="mainscreen_title" id="title">Sentinal v0.1</h2>
+            <button id="scan-btn">Scan</button>
+            <div id="api-key-container">
+                <label for="api-key-input">API KEY:</label>
+                <input type="text" id="api-key-input" placeholder="Enter API Key">
+            </div>
+        </header>
+
+        <!-- Player list -->
+        <div id="player-list-container">
+            <table id="player-list">
+                <thead>
+                    <tr>
+                        <th>Score</th>
+                        <th>Name</th>
+                        <th>KDR</th>
+                        <th>WLR</th>
+                        <th>SkyLord</th>
+                        <th>Kills</th>
+                        <th>Wins</th>
+                        <th>Blocked Placed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Player rows will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <span id="gamertag"></span>
+            <span id="version"></span>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
