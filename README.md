@@ -27,6 +27,8 @@
 
 ![Splash Screen](https://raw.githubusercontent.com/PolrFlare/Sentinal/refs/heads/main/images/image1.png)  
 ![Main UI](https://raw.githubusercontent.com/PolrFlare/Sentinal/refs/heads/main/images/image2.png)
+![Splash Screen](https://raw.githubusercontent.com/PolrFlare/Sentinal/refs/heads/main/images/image4.png)
+![Main UI](https://raw.githubusercontent.com/PolrFlare/Sentinal/refs/heads/main/images/image3.png)
 
 ---
 
