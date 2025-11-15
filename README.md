@@ -6,7 +6,7 @@
 
 ## Features
 
-- Detects all players in your **Minecraft Bedrock Edition (1.21.94–1.21.113 for Windows)** lobby (Hive)  
+- Detects all players in your **Minecraft Bedrock Edition (1.21.94–1.21.114 for Windows)** lobby (Hive)  
 - Detects all players in **Minecraft Java Edition 1.21+** (MCCI) SkyBattle games via a Fabric mod (`SentinalUtils.jar`)  
 - Fetches stats directly from the APIs:  
   - **Hive:** `playhive.com`  
@@ -59,7 +59,7 @@ git clone https://github.com/PolrFlare/Sentinal.git
 ### Usage
 
 ### 🟡 Hive (Bedrock)
-1. Launch **Minecraft Bedrock Edition 1.21.94–1.21.113 (Windows Edition)**.  
+1. Launch **Minecraft Bedrock Edition 1.21.94–1.21.114 (Windows Edition)**.  
 2. Join a **SkyWars** lobby.
 
 ### 🔵 MCCI (Java)
