@@ -81,6 +81,8 @@ namespace HiveSentinal
                     initialPlayerCountOffset = 0x95EC238;
                 else if (version.Contains("1.21.113"))
                     initialPlayerCountOffset = 0x95EC228;
+                else if (version.Contains("1.21.114"))
+                    initialPlayerCountOffset = 0x95EC248;
             }
 
             int initialPlayerCount = ReadInt32AtOffset(handle, moduleBase, initialPlayerCountOffset);
@@ -343,3 +345,4 @@ namespace HiveSentinal
         }
     }
 }
+
